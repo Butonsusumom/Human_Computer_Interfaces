@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="606.0" prefWidth="740.0" style="-fx-background-color: E3E3E3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <BorderPane layoutX="95.0" prefHeight="606.0" prefWidth="547.0">
+            <center>
+                <GridPane gridLinesVisible="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #4d7252;" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="20.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="5.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <BorderPane.margin>
+                        <Insets left="40.0" right="40.0" top="20.0" />
+                    </BorderPane.margin>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <children>
+                        <Button fx:id="but9" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="115.0" prefWidth="243.0" style="-fx-background-color: #FFFFFF;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but8" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #ecf1f5;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but6" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #ecf1f5;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but3" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;" GridPane.columnIndex="2">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but5" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but7" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;" GridPane.rowIndex="2">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but4" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #ecf1f5;" GridPane.rowIndex="1">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #ecf1f5;" GridPane.columnIndex="1">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                        <Button fx:id="but1" mnemonicParsing="false" onAction="#buts" prefHeight="107.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                     <font>
+                        <Font name="Arial" size="50.0" />
+                     </font>
+                        </Button>
+                    </children>
+                </GridPane>
+            </center>
+            <bottom>
+                <HBox alignment="CENTER_RIGHT" prefHeight="99.0" prefWidth="591.0" BorderPane.alignment="CENTER_LEFT">
+                    <children>
+                        <Button defaultButton="true" mnemonicParsing="false" onAction="#start" prefHeight="41.0" prefWidth="105.0" text="Start" textOverrun="CENTER_ELLIPSIS">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <effect>
+                                <SepiaTone />
+                            </effect>
+                            <HBox.margin>
+                                <Insets right="20.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#reset" prefHeight="45.0" prefWidth="105.0" text="Reset">
+                            <HBox.margin>
+                                <Insets right="35.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </bottom>
+            <top>
+                <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ecf1f5" height="107.0" stroke="BLACK" strokeType="INSIDE" width="547.0" />
+                        <GridPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="107.0" prefWidth="548.0" vgap="10.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="164.199951171875" minWidth="10.0" prefWidth="74.20001220703125" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.6000442504883" minWidth="10.0" prefWidth="115.79998779296875" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="355.5999755859375" minWidth="10.0" prefWidth="305.20001220703125" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Score">
+                                    <font>
+                                        <Font name="Arial Bold" size="20.0" />
+                                    </font>
+                                </Text>
+                                <TextField fx:id="scoreO" alignment="CENTER_RIGHT" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <TextField fx:id="scoreX" alignment="CENTER_RIGHT" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1st Player O:" GridPane.rowIndex="1" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2nd Player X:" GridPane.rowIndex="2" />
+                            </children>
+                        </GridPane>
+                    </children>
+                </StackPane>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>
