@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConverterNetBeans.jnlp">
+  <information>
+    <title>ConverterNetBeans</title>
+    <vendor>Buton</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ConverterNetBeans.jar" size="4431" download="eager" />
+    <jar href="lib/javafx.base.jar" size="749889" download="eager" />
+    <jar href="lib/javafx.controls.jar" size="2511137" download="eager" />
+    <jar href="lib/javafx.fxml.jar" size="127395" download="eager" />
+    <jar href="lib/javafx.graphics.jar" size="4295861" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ConverterNetBeans" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="converternetbeans.ConverterNetBeans"  name="ConverterNetBeans" />
+  <update check="always"/>
+</jnlp>
